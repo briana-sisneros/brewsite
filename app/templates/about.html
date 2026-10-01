@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 
 {% block main %}
-<p>Welcome to about us!</p>
+<p>Welcome to about me!</p>
 <p> {{ user }}</p>
+
+<p>I personally am not a big beer drinker, however I am a bartender!</p>
+<p>My favorite beer is a Modelo Negra!</p>
+
+<img src="{{ url_for('static', filename = 'images/ModeloNegra.jpg') }}" alt="Shows a picture of my favorite beer, Modelo Negra" width="400" height="300">
 
 {% endblock main %}
